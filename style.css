@@ -1,0 +1,79 @@
+body{
+width:80% ;
+margin: auto;
+margin-top: 0;
+}
+main{
+    text-align: center;
+   
+}
+h1{
+    text-align: center;
+    background-color:rgb(19, 19, 105) ;
+    color: white;
+    padding:10px;
+    margin-top:0;
+
+}
+#morpion{
+    width: 400px;
+    height: 400px;
+    border: solid black 3px;
+    margin: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0;
+}
+#morpion:hover{
+    cursor: cell;
+}
+.item, .ticked{
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+
+}
+
+button{
+    background-color: rgb(24, 24, 155);
+    color: white;
+    border: black solid 1px;
+    border-radius: 5px;
+    width: 200px;
+    padding: 5px;
+}
+#start:hover{
+    cursor:pointer;
+    background-color:rgb(25, 105, 255)
+}
+.item img, .ticked img{
+    max-width: 60%;
+    max-height: 60%;
+    margin: auto;
+}
+h2{
+    background-color: rgb(60, 60, 255);
+    width: 40%;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2em;
+}
+
+#count{
+    width : 25%;
+    margin: auto;
+    padding: 50px;
+}
+#j1count{
+    float:left;
+}
+#j2count{
+    float:right;
+}
+
+
+
