@@ -75,7 +75,7 @@ h2{
     float:right;
 }
 #auteur{
-    margin-top: 10rem;
+    margin-top: 15rem;
     color:  rgb(128,118,118);
 }
 
@@ -87,6 +87,7 @@ h2{
         margin-top: 30px;
     }
     #count{
+        padding: 5px;
         display: flex;
         flex-wrap: wrap;
         gap: 30px;
@@ -94,4 +95,8 @@ h2{
     #j1count, #j2count{
         width: 100%;
     }
+   #auteur{ 
+    margin-top: 50px;
+
+   }
   }
